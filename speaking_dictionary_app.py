@@ -18,4 +18,4 @@ def fetchData(search):
     print(data[1].text)
     speech(data[1].text)
 
-
+fetchData(search)
